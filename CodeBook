@@ -29,7 +29,8 @@ Jerk = Derived measurement of jerk. If this is not present then the measurement 
 
 We have then taken the mean and standard deviation of these, demarked by mean() and std() in the variable names.
 
-The dataset MeansOfMeansandSDsForWornData.csv contains the mean of each of these variables' time series for each of the people and each of the activities.
+The dataset MeansOfMeansandSDsForWornData.csv can be loaded using read.table("MeansofMeansandSDsForWornData.csv", header = T). It contains the mean of each of these variables' time series for each of the people and each of the activities.
+The column heading are the activities given by name, and the test subjects enumerated X1 to X30. The variables described above then give the row headings.
 
 
 

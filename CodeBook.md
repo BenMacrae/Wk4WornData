@@ -3,8 +3,8 @@ This is mostly deduced from the features.txt and readme.txt files associated wit
 
 The dataset sourced from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones contains the results of monitoring the linear and angular acceleration experienced by a smartphone whalst each of 30 test subjects conducted one of 6 activities (laying, sitting, standing, walking, walking up stairs, walking down stairs). A range of physical variables and corresponding summary statistics were then generated. The physical variables are:
 
-tBodyAcc-XYZ \n
-tGravityAcc-XYZ
+1. tBodyAcc-XYZ \n
+2. tGravityAcc-XYZ
 tBodyAccJerk-XYZ
 tBodyGyro-XYZ
 tBodyGyroJerk-XYZ

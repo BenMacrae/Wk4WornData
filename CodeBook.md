@@ -1,12 +1,9 @@
 # Code Book
 This is mostly deduced from the features.txt and readme.txt files associated with the data, refer to them for more details.
 
-The dataset sourced from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones contains the results of
-monitoring the linear and angular acceleration experienced by a smartphone whalst each of 30 test subjects conducted one of 6 activities
-(laying, sitting, standing, walking, walking up stairs, walking down stairs). A range of physical variables and corresponding summary
-statistics were then generated. The physical variables are:
+The dataset sourced from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones contains the results of monitoring the linear and angular acceleration experienced by a smartphone whalst each of 30 test subjects conducted one of 6 activities (laying, sitting, standing, walking, walking up stairs, walking down stairs). A range of physical variables and corresponding summary statistics were then generated. The physical variables are:
 
-tBodyAcc-XYZ
+tBodyAcc-XYZ \n
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
 tBodyGyro-XYZ
@@ -33,10 +30,7 @@ Jerk = Derived measurement of jerk. If this is not present then the measurement 
 
 We have then taken the mean and standard deviation of these, demarked by mean() and std() in the variable names.
 
-The dataset MeansOfMeansandSDsForWornData.csv can be loaded using read.table("MeansofMeansandSDsForWornData.csv", header = T).
-It contains the mean of each of these variables' time series for each of the people and each of the activities.
-The column heading are the activities given by name, and the test subjects enumerated X1 to X30. The variables described above then
-give the row headings.
+The dataset MeansOfMeansandSDsForWornData.csv can be loaded using read.table("MeansofMeansandSDsForWornData.csv", header = T). It contains the mean of each of these variables' time series for each of the people and each of the activities. The column heading are the activities given by name, and the test subjects enumerated X1 to X30. The variables described above then give the row headings.
 
 
 

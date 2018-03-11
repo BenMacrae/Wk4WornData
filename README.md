@@ -7,11 +7,14 @@ Unzips it to the working directory.
 For the 'test' dataset it loads the list of test subjects, the data, the list of activities and the list of column headings for the data from their files into seperate variables.
 We then combine the first three into one dataset using cbind() and apply the correct column headings.
 
-This process is repeated exactly for the training dataset.
+This process is then repeated exactly for the training dataset.
 
 We then stack the two sets verticaly using rbind(), and select from this set only those variables containing the mean and standard devation of their measurement.
 
-Finally we use the reshape package to find the mean of each of our variables for each of the activities and test subjects.
+Finally we use the reshape package to find the mean of each of our variables for each of the activities and test subjects, and this dataset is saved to 'MeansOfMeansandSDsForWornData.csv'.
+
+# The Dataset:
+The file 'MeansOfMeansandSDsForWornData.csv' can be loaded into R using the command read.table("MeansofMeansandSDsForWornData.csv", header = T). The 'variable' column contains the name of a mean or standard deviation from the datasets X_train and X_test. The column headings are either activities or subjects, the latter being ennumerated X1 to X30 inclusive. The values in the table are the means of the row variables for each person and activity.
 
 
 

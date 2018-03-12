@@ -14,7 +14,7 @@ We then stack the two sets verticaly using rbind(), and select from this set onl
 Finally we use the reshape package to find the mean of each of our variables for each of the activities and test subjects, and this dataset is saved to 'MeansOfMeansandSDsForWornData.csv'.
 
 # The Dataset:
-The file 'MeansOfMeansandSDsForWornData.csv' can be loaded into R using the command read.table("MeansofMeansandSDsForWornData.csv", header = T). The 'variable' column contains the name of a mean or standard deviation from the datasets X_train and X_test. The column headings are either activities or subjects, the latter being ennumerated X1 to X30 inclusive. The values in the table are the means of the row variables for each person and activity.
+The file 'MeansOfMeansandSDsForWornData.txt' can be loaded into R using the command read.table("MeansofMeansandSDsForWornData.csv", header = T). The 'variable' column contains the name of a mean or standard deviation from the datasets X_train and X_test. The column headings are either activities or subjects, the latter being ennumerated X1 to X30 inclusive. The values in the table are the means of the row variables for each person and activity.
 
 
 

@@ -22,11 +22,13 @@ The dataset sourced from http://archive.ics.uci.edu/ml/datasets/Human+Activity+R
 * fBodyGyroJerkMag
 
 The meanings behind these names can be deduced from:
-t = time space, f = frequency space (i.e. after a Fast Fourier Transform).
+t = timespace, f = frequencyspace (i.e. after a Fast Fourier Transform).
 Body = we have removed the effect of gravity. Gravity =  acceleration due to gravity.
-Acc = measured by the accelerometer. Gyro = Measured by the gyroscope.
+Acc = measured by the accelerometer. Gyro = measured by the gyroscope.
 Mag = magnitude of the variable. -X, -Y or -Z indicates the component in just that dimension.
 Jerk = Derived measurement of jerk. If this is not present then the measurement is the acceleration.
+
+All features have been normalised so that the max value is in the bound [1,-1]
 
 We have then taken the mean and standard deviation of these, demarked by mean() and std() in the variable names.
 
